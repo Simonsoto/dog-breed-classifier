@@ -1,6 +1,14 @@
+<!-- [//]: # (Image References)
+
+[image1]: ./images/sample_dog_output.png "Sample Output"
+[image2]: ./images/vgg16_model.png "VGG-16 Model Layers"
+[image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure" -->
+
 # DOG BREED CLASSIFIER
 
 This project is the final project for the Machine Learning Nanodegree. In this project, the idea is to construct a dog breed classifier that can with certain accuracy tell the breed of a dog given a picture. 
+
+![Sample Output][image1]
 
 First, we have to develop a classifier (using OpenCV) to identify faces in the pictures. Similar, a pre-trained network (VGG 16) is used to determine if a dog is present in the picture. 
 
